@@ -1,0 +1,67 @@
+.wrapper {
+    padding-top: 100px;
+}
+
+.formContainer {
+    margin: 0 30vw;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+}
+
+label {
+    margin: 30px 0 10px 0 ;
+    font-weight: 500;
+}
+
+.firstLabel {
+    margin-top: 0;
+}
+
+.sendButton {
+    padding: 10px 20px;
+    background-color: #f90;
+    border-radius: 15px;
+    margin: 30px 0;
+	color: inherit;
+	//border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border-color: rgb(255, 145, 0);
+    border-width: 3px;
+    border-style: solid;
+    font-weight: 500;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+input, textarea {
+    padding: 10px;
+}
+
+.sentMessage {
+    color: green;
+}
+
+.errorMessage {
+    color: red;
+}
+
+@media only screen and (max-width: 1200px) {
+    .formContainer {
+        margin: 0 20vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .formContainer {
+        margin: 0 5vw;
+    }
+}

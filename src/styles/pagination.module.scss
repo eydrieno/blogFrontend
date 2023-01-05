@@ -1,0 +1,18 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.pagination li button {
+    padding: 0 30px;
+}
+
+.currentPage {
+    color: red;
+}
+
+// button:hover {
+//     color: #f90;
+// }

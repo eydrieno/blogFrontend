@@ -1,0 +1,18 @@
+.info {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500
+}
+
+.listWrapper {
+    margin: 50px 30vw;
+}
+
+.postTitle {
+    margin: 15px 0;
+    font-size: 1rem;
+
+    &:hover {
+        color: #f90;
+    }
+}
